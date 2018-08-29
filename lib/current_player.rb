@@ -2,6 +2,7 @@ board = [" "," "," "," "," "," "," "," "," "]
 
 def turn_count
   board.each do |turns|
+  end
 end
 
 def current_player
