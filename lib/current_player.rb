@@ -1,15 +1,10 @@
 board = [" "," "," "," "," "," "," "," "," "]
 
 def turn_count
-  turns_available = 9
+  turns_available = board.size
   turns_played = 0
   while turns_played < turns_available
     turns_played +=1
-    if turns_played % 2
-      puts "O"
-    else
-      puts "X"
-    end
   end
 end
 
