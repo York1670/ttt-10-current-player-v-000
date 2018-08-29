@@ -1,13 +1,7 @@
 board = [" "," "," "," "," "," "," "," "," "]
 
 def turn_count
-  unoccupied_position = board.size
-  occupied_position = 0
-
-  while occupied_position < unoccupied_position
-    
-    occupied_position += 1
-  end
+  board.each do |turns|
 end
 
 def current_player
