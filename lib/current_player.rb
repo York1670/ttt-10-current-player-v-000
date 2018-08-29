@@ -4,7 +4,8 @@ def turn_count
   unoccupied_position = board.size
   occupied_position = 0
 
-  while unoccupied_position != 0
+  while occupied_position < unoccupied_position
+    
     occupied_position += 1
   end
 end
