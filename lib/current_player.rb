@@ -1,7 +1,11 @@
 board = [" "," "," "," "," "," "," "," "," "]
 
 def turn_count
-  board.each do |occupied_position|
+  turns_available = board.size
+  turns_played = 0
+  while turns_played < turns_available
+    puts "turns played #{turns_played}"
+    turns_played +=1
   end
 end
 
