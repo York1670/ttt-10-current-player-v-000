@@ -6,7 +6,7 @@ def turn_count(board)
   board.each do |elements|
     turns_played = 0
     if elements != " " || square != "" || square != nil
-      then turns_played += 1
+      turns_played += 1
     end
   end
 end
