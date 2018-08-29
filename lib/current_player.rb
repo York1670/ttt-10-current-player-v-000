@@ -1,7 +1,7 @@
 board = [" "," "," "," "," "," "," "," "," "]
 
 def turn_count
-  board.each do |turns|
+  board.each do |occupied_position|
   end
 end
 
