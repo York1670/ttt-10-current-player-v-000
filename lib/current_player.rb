@@ -1,8 +1,8 @@
 board = [" "," "," "," "," "," "," "," "," "]
 
 def turn_count
-  unoccupied_position = board.size 
-  occupied_position = 0 
+  unoccupied_position = board.size
+  occupied_position = 0
 
   while unoccupied_position != 0
     occupied_position += 1
